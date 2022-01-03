@@ -1,0 +1,1 @@
+# foam-template-just-the-docs-with-tags
