@@ -1,0 +1,63 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding: 10px;
+    background: #302d36;
+}
+
+ul.tags > li::before {
+    content: none;
+}
+
+ul.tags>li {
+    margin: 4px;
+    list-style: none;
+}
+
+ul.tags>li>a {
+    margin: 8px;
+    color: #959399;
+}
+
+ul.tags>li:hover {
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.25);
+}
+
+ul.tags>li>a:hover {
+    text-decoration: none;
+}
+
+.posts {        
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.posts > li::before {
+    content: none;
+}
+
+/* override mardown-body css */
+ul.posts {
+    padding-left: 0px;
+}
+
+ul.posts>li {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;      
+}
+
+ul.posts > li * {
+    color: #959399;
+}
+
+ul.posts > li:hover {
+    background-color: rgba(211, 211, 211, 0.25);   
+    border-radius: 5px;  
+}
+
+ul.posts > li > a:hover {
+    text-decoration: none;
+}
