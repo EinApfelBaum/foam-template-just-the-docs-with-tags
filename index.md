@@ -5,7 +5,7 @@ nav_order: 1
 
 # 👋 Welcome to my wiki
 
-A wiki based on [Foam](https://foambubble.github.io/foam/) <img src="/assets/images/foam-icon.png" width=25> with jekyll and [Just the doc](https://pmarsceill.github.io/just-the-docs/) template.
+A wiki based on [Foam](https://foambubble.github.io/foam/) ![foam icon](assets/images/foam-icon.png) with jekyll and [Just the doc](https://pmarsceill.github.io/just-the-docs/) template.
 
 Look, here are your [[tags]]
 
