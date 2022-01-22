@@ -6,4 +6,8 @@ parent: Features
 
 # Feature 2
 
-some text here.
+## Code example
+
+```c#
+public record Person(string name);
+```
