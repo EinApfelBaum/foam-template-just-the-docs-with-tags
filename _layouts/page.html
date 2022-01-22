@@ -1,8 +1,12 @@
 ---
-layout: foam
+layout: default
 ---
 
 {{ content }}
 
-<hr site="1" color="black">
-Created: {{ page.created }}
+{%- if page.created -%}
+<hr site="1" color="black" style="margin-bottom: 5px;">
+<div style="font-size: 11px;">
+    Created: {{ page.created }}
+</div>
+{%- endif -%}

@@ -1,4 +1,4 @@
-title: Foam with jekyll and Just the doc and tags
+title: My title
 theme: just-the-docs
 
 highlighter: rouge
@@ -11,34 +11,7 @@ kramdown:
 readme_index:
   enabled:          true
 
-repository: <Repo name>
-
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  # Define which collections are used in just-the-docs
-  collections:
-    # Reference the "docs" collection
-    docs:
-      # Give the collection a name
-      name: Documentation
-      # Exclude the collection from the navigation
-      # Supports true or false (default)
-      nav_exclude: false
-      # Exclude the collection from the search
-      # Supports true or false (default)
-      search_exclude: false
-
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "docs" # a collection in your site, in plural form
-    values:
-      layout: "page"
+repository: RepoName
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -86,4 +59,3 @@ plugins:
 - jekyll-default-layout
 - jekyll-titles-from-headings
 - jekyll-relative-links
-- jekyll-tagories

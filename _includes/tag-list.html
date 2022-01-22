@@ -1,26 +1,38 @@
-{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor
-%}{% endcapture %}
-{% assign tags_list = site_tags | split:',' | sort_natural %}
+{% comment %}
+List tags from all pages.
+{% endcomment %}
+
+{% assign all_tags = "" %}
+{% for page in site.pages %}
+    {% if all_tags == empty %}
+    {% assign all_tags = page.tags | split: " " %}
+    {% else %}
+    {% assign page_tags = page.tags | split: " " %}
+    {% assign all_tags = all_tags | concat: page_tags %}
+    {% endif%}
+{% endfor %}
+
+{% assign all_unique_tags = all_tags | uniq | sort_natural %}
 
 <div>
     <ul class="tags">
-        {% for tag in tags_list %}
-
+        {% for tag in all_unique_tags %}
         <li> <a href="#{{ tag }}">{{ tag }}</a> </li>
-
         {% endfor %}
-
     </ul>
 </div>
 
-{% for item in (0..site.tags.size) %}{% unless forloop.last %}
-{% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-<article id="{{ this_word }}">
-    <h2>{{ this_word }}</h2>
+{% for tag in all_unique_tags %}   
+<article id="{{ tag }}">
+    <h2>{{ tag }}</h2>
     <ul class="posts">
-        {% for post in site.tags[this_word] %}{% if post.title != null %}
-        <li><a href="{{ site.url }}{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-        {% endif %}{% endfor %}
+        {% for page in site.pages %}
+        {% if page.tags contains tag %}
+        <li><a href="{{ site.url }}{{ page.url | relative_url }}" title="{{ page.title }}">{{ page.title }}</a></li>
+        {% endif %}
+        {% endfor %}
     </ul>
 </article>
-{% endunless %}{% endfor %}
+{% endfor %}
+
+
