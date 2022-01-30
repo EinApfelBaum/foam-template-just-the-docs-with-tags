@@ -1,0 +1,164 @@
+{"0": {
+    "doc": "Monday, January 3, 2022",
+    "title": "Monday, January 3, 2022",
+    "content": " ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/journal/2022-01-03.html",
+    "relUrl": "/journal/2022-01-03.html"
+  },"1": {
+    "doc": "Tuesday, January 4, 2022",
+    "title": "Tuesday, January 4, 2022",
+    "content": ". | Drink some coffee | Review feature request =&gt; [feature2] | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/journal/2022-01-04.html",
+    "relUrl": "/journal/2022-01-04.html"
+  },"2": {
+    "doc": "Monday, January 17, 2022",
+    "title": "Monday, January 17, 2022",
+    "content": " ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/journal/2022-01-17.html",
+    "relUrl": "/journal/2022-01-17.html"
+  },"3": {
+    "doc": "Feature 1",
+    "title": "Feature 1",
+    "content": " ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/features/feature1.html",
+    "relUrl": "/features/feature1.html"
+  },"4": {
+    "doc": "Feature 1",
+    "title": "Table of contents",
+    "content": ". | Description | Requirements | Next steps | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/features/feature1.html#table-of-contents",
+    "relUrl": "/features/feature1.html#table-of-contents"
+  },"5": {
+    "doc": "Feature 1",
+    "title": "Description",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, aut dignissimos? Cumque corporis, reprehenderit blanditiis necessitatibus architecto quasi cum aperiam. Laborum est atque perferendis quibusdam! Perspiciatis dolorem non laborum omnis. ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/features/feature1.html#description",
+    "relUrl": "/features/feature1.html#description"
+  },"6": {
+    "doc": "Feature 1",
+    "title": "Requirements",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a perferendis deleniti, eos provident blanditiis quod sequi magni, sint odio, consequuntur facere ipsum. Error, consequatur! Deleniti, ullam voluptatibus veniam optio sint cum eius? Doloribus nihil commodi itaque voluptate id quia cum dicta. Aperiam voluptatum itaque odit? Ipsam voluptates dicta corrupti accusamus aliquid sed illo beatae, vel fugit quae quia nihil in tempore qui voluptatum animi modi sint quas nam consectetur provident. Exercitationem expedita a facilis numquam facere commodi placeat cum fuga officia quam illum error aut tenetur ipsam provident eaque non, voluptatibus minima quos saepe delectus neque quasi. Maxime, veritatis? . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/features/feature1.html#requirements",
+    "relUrl": "/features/feature1.html#requirements"
+  },"7": {
+    "doc": "Feature 1",
+    "title": "Next steps",
+    "content": ". | Ask clients about this feature | Create some flow description | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/features/feature1.html#next-steps",
+    "relUrl": "/features/feature1.html#next-steps"
+  },"8": {
+    "doc": "Feature 2",
+    "title": "Feature 2",
+    "content": " ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/features/feature2.html",
+    "relUrl": "/features/feature2.html"
+  },"9": {
+    "doc": "Feature 2",
+    "title": "Code example",
+    "content": "public record Person(string name); . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/features/feature2.html#code-example",
+    "relUrl": "/features/feature2.html#code-example"
+  },"10": {
+    "doc": "Getting Started",
+    "title": "Getting Started",
+    "content": " ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/getting-started.html",
+    "relUrl": "/getting-started.html"
+  },"11": {
+    "doc": "Inbox",
+    "title": "Inbox",
+    "content": ". | Here you can write disorganised notes to be categorised later | Bullet points are useful, but it could be free form text as well | Sometimes it’s better to just get things off your mind quickly, rather than stop to think where it belongs | But don’t let this list get too long | Move information to more specific documents and link to them. | This helps you navigate between documents quickly | For example, you can Cmd+Click this: [[todo]] | . | Some notes don’t end up making sense the next day | That’s ok, you can just delete them! . | You can always find them in your git history, if you really need it! | . | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/docs/inbox.html",
+    "relUrl": "/docs/inbox.html"
+  },"12": {
+    "doc": "Journal",
+    "title": "Journal",
+    "content": " ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/journal",
+    "relUrl": "/journal"
+  },"13": {
+    "doc": "Features",
+    "title": "Features",
+    "content": " ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/features",
+    "relUrl": "/features"
+  },"14": {
+    "doc": "Home",
+    "title": "👋 Welcome to my wiki",
+    "content": "A wiki based on Foam with jekyll and Just the doc template. Look, here are your [tags] . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/#-welcome-to-my-wiki",
+    "relUrl": "/#-welcome-to-my-wiki"
+  },"15": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/",
+    "relUrl": "/"
+  },"16": {
+    "doc": "Tags",
+    "title": "Tags",
+    "content": ". | DayOff | feature | gettingStarted | inbox | navigation | payment | sprint01 | todo | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/tags.html",
+    "relUrl": "/tags.html"
+  },"17": {
+    "doc": "Tags",
+    "title": "DayOff",
+    "content": ". | Monday, January 17, 2022 | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/tags.html",
+    "relUrl": "/tags.html"
+  },"18": {
+    "doc": "Tags",
+    "title": "feature",
+    "content": ". | Feature 1 | Feature 2 | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/tags.html",
+    "relUrl": "/tags.html"
+  },"19": {
+    "doc": "Tags",
+    "title": "gettingStarted",
+    "content": ". | Getting Started | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/tags.html",
+    "relUrl": "/tags.html"
+  },"20": {
+    "doc": "Tags",
+    "title": "inbox",
+    "content": ". | Inbox | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/tags.html",
+    "relUrl": "/tags.html"
+  },"21": {
+    "doc": "Tags",
+    "title": "navigation",
+    "content": ". | Feature 1 | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/tags.html",
+    "relUrl": "/tags.html"
+  },"22": {
+    "doc": "Tags",
+    "title": "payment",
+    "content": ". | Feature 2 | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/tags.html",
+    "relUrl": "/tags.html"
+  },"23": {
+    "doc": "Tags",
+    "title": "sprint01",
+    "content": ". | Feature 1 | Feature 2 | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/tags.html",
+    "relUrl": "/tags.html"
+  },"24": {
+    "doc": "Tags",
+    "title": "todo",
+    "content": ". | Todo | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/tags.html",
+    "relUrl": "/tags.html"
+  },"25": {
+    "doc": "Todo",
+    "title": "Todo",
+    "content": "You can create todos in Foam. | This is an example of a todo list item that’s complete | This one is not completed yet | You can mark it completed by pressing Option+C (or Alt+C) when your cursor is on this line | You can also select multiple lines and mark them all at once! | . ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/docs/todo.html",
+    "relUrl": "/docs/todo.html"
+  },"26": {
+    "doc": "Daily Notes",
+    "title": "Daily Notes",
+    "content": "# Daily Notes Daily notes allow you to quickly create and access notes for today. Try it out, run the `Foam: Open Daily Note` command. ## Shortcuts and Snippets You can quickly open today's daily note by pressing `alt+d`. You can also automatically open today's note via the `Foam › Open Daily Note: On Startup` setting. You can also quickly create link to your daily notes, in the configured format, using [snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets). Type `/today` and press `enter` to link to today's note. You can also write: | Snippet | Date | ------------ | ------------- | `/tomorrow` | tomorrow | `/yesterday` | yesterday | `/monday` | next monday | `/+1d` | tomorrow | `/-3d` | 3 days ago | `/+1w` | in a week | `/-1m` | one month ago | `/+1y` | in one year | You get the idea ;) ## Configuration It's possible to customize path and heading of your daily notes, by following the [dateformat masking syntax](https://github.com/felixge/node-dateformat#mask-options). The following properties can be used: ```json \"foam.openDailyNote.directory\": \"journal\", \"foam.openDailyNote.filenameFormat\": \"'daily-note'-yyyy-mm-dd\", \"foam.openDailyNote.fileExtension\": \"mdx\", \"foam.openDailyNote.titleFormat\": \"'Journal Entry, ' dddd, mmmm d\", ``` The above configuration would create a file `journal/daily-note-2020-07-25.mdx`, with the heading `Journal Entry, Sunday, July 25`. ",
+    "url": "https://your_github_name.github.io/foam-template-just-the-docs-with-tags-demo/daily-notes.html",
+    "relUrl": "/daily-notes.html"
+  }
+}
